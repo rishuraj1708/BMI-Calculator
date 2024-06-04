@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(109, 108, 108);
+  color: white;
+}
+.container{
+  padding: 50px;
+  margin-left: 20%;
+  margin-top: 50px;
+  border: 2px solid rgb(59, 29, 29);
+  width: 400px;
+  height: auto;
+}
+
+.heading{
+  margin: 20px 0px;
+}
+#calculate{
+  font-weight: 600;
+  padding: 5px;
+  border: 2px solid brown;
+  border-radius: 8px;
+}
+
+.content{
+  color: rgb(12, 12, 12);
+  margin: 15px;
+  padding: 10px;
+}
+.content p{
+  margin-top: 10px;
+  font-weight: 500;
+
+}
+#result{
+  color: rgb(218, 255, 11);
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: large;
+  font-weight: 600;
+}
